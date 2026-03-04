@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.project-card {
+    background: lightgray;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    background: green;
+    color: white;
+    border: none;
+}
+
+/* Responsive */
+@media(max-width:600px){
+    header{
+        flex-direction: column;
+        text-align:center;
+    }
+}
